@@ -13,7 +13,8 @@ namespace _173OldSpawn
         public void OldSpawn(SpawningEventArgs ev)
         {
             if (ev.Player.Role.Type == PlayerRoles.RoleTypeId.Scp173)
-                ev.Position = Room.Get(RoomType.Lcz173).WorldPosition(new Vector3(17.126f, 13.0f, 7.661f));
+                if (UnityEngine.Random.value <= Plugin.Instance.Config.change/100f)
+                    ev.Position = Room.Get(RoomType.Lcz173).WorldPosition(new Vector3(17.126f, 13.0f, 7.661f));
         }
     }
 }

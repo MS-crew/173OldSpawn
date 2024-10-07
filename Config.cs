@@ -6,5 +6,6 @@ namespace _173OldSpawn
     {
         public bool IsEnabled { get; set; } = true;
         public bool Debug { get; set; } = false;
+        public int change { get; set; } = 50;
     }
 }
