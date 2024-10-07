@@ -1,4 +1,4 @@
-<h1 align="center">173OldSpawn</h1>
+<h1 align="center">173 Old Spawn</h1>
 <div align="center">
 <a href="https://github.com/MS-crew/173OldSpawn"><img src="https://img.shields.io/github/actions/workflow/status/Exiled-Team/EXILED/main.yml?style=for-the-badge&logo=githubactions&label=build" href="https://github.com/MS-crew/173OldSpawn" alt="GitHub Source Code"></a>
 <a href="https://github.com/MS-crew/173OldSpawn/releases"><img src="https://img.shields.io/badge/Build-1.0.0-brightgreen?style=for-the-badge&logo=gitbook" href="https://github.com/MS-crew/BetterScp106/releases" alt="GitHub Releases"></a>
@@ -9,7 +9,7 @@
 
 ## 173 Spawn
 
-- **Spawn point change:** With this plugin, 173 will spawn at the old spawn point again.
+- **Spawn point change:** With this plugin, 173 will spawn at the old spawn point again(Light Contaiment Zone).
 
 ## Installation
 
