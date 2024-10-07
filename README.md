@@ -5,11 +5,9 @@
 <a href="https://github.com/MS-crew/BetterScp106/blob/master/LICENSE"><img src="https://img.shields.io/badge/Licence-GNU_3.0-blue?style=for-the-badge&logo=gitbook" href="https://github.com/MS-crew/BetterScp106/blob/master/LICENSE" alt="General Public License v3.0"></a>
 <a href="https://github.com/ExMod-Team/EXILED"><img src="https://img.shields.io/badge/Exiled-8.12.2-red?style=for-the-badge&logo=gitbook" href="https://github.com/ExMod-Team/EXILED" alt="GitHub Exiled"></a>
 
-
-This add-on for SCP: Secret Laboratory brings new features closer to the lore for the existing SCP-106. The plugin provides a number of customizable features to enhance your server's gaming or RP experience.
 </div>
 
-## 173 Old Spawn
+## 173 Spawn
 
 - **Spawn point change:** With this plugin, 173 will spawn at the old spawn point again.
 
