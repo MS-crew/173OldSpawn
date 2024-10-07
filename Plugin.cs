@@ -10,7 +10,7 @@ namespace _173OldSpawn
         public override string Name => "173OldSpawn";
         public override string Prefix => "173OldSpawn";
         public override Version RequiredExiledVersion { get; } = new Version(8, 12, 2);
-        public override Version Version { get; } = new Version(1, 0, 0);
+        public override Version Version { get; } = new Version(1, 1, 0);
 
         private EventHandlers eventHandler;
         public override void OnEnabled()
