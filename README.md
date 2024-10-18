@@ -31,4 +31,5 @@ Thank you for using our plugin and helping us improve it!
 ```yml
 Is_enabled: true
 debug: false
+chance: 50
 ```
