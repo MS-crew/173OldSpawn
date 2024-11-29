@@ -1,8 +1,7 @@
-﻿using Exiled.API.Enums;
+﻿using UnityEngine;
+using Exiled.API.Enums;
 using Exiled.API.Features;
 using Exiled.Events.EventArgs.Player;
-using System;
-using UnityEngine;
 
 namespace _173OldSpawn
 {
@@ -13,8 +12,9 @@ namespace _173OldSpawn
         public void OldSpawn(SpawningEventArgs ev)
         {
             if (ev.Player.Role.Type == PlayerRoles.RoleTypeId.Scp173)
-                if (UnityEngine.Random.value <= Plugin.Instance.Config.change/100f)
+                if (Random.value <= Plugin.Instance.Config.change/100f)
                     ev.Position = Room.Get(RoomType.Lcz173).WorldPosition(new Vector3(17.126f, 13.0f, 7.661f));
+            
         }
     }
 }
