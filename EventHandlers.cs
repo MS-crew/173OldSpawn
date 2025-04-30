@@ -20,7 +20,7 @@ namespace _173OldSpawn
             if (!ev.NewRole.SpawnFlags.HasFlag(RoleSpawnFlags.UseSpawnpoint))
                 return;
 
-            if (Random.Range(0, 100) => plugin.Config.change)
+            if (Random.Range(0, 100) >= plugin.Config.change)
                 return;
 
             ev.Position = Room.Get(plugin.Config.Room).WorldPosition(plugin.Config.offset);    
