@@ -2,6 +2,7 @@
 using Exiled.API.Enums;
 using Exiled.API.Features;
 using Exiled.Events.EventArgs.Player;
+using PlayerRoles;
 
 namespace _173OldSpawn
 {
@@ -13,7 +14,10 @@ namespace _173OldSpawn
 
         public void OldSpawn(SpawningEventArgs ev)
         {
-            if (ev.Player.Role.Type != PlayerRoles.RoleTypeId.Scp173)
+            if (ev.NewRole.Type != RoleTypeId.Scp173)
+                return;
+
+            if (!ev.NewRole.SpawnFlags.HasFlag(RoleSpawnFlags.UseSpawnpoint))
                 return;
 
             if (Random.Range(0, 100) => plugin.Config.change)
